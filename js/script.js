@@ -6,19 +6,15 @@
         const rateGBP = 5.3731;
         switch (currency) {
             case "EUR":
-                rate = rateEUR
                 return amount / rateEUR;
 
             case "USD":
-                rate = rateUSD
                 return amount / rateUSD;
 
             case "CHF":
-                rate = rateCHF
                 return amount / rateCHF;
 
             case "GBP":
-                rate = rateGBP
                 return amount / rateGBP;
         }
     };
