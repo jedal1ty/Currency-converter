@@ -12,10 +12,8 @@ html {
 .container {
     padding: 110px;
     font-family: 'Noto Sans';
-    background-image: url(../images/background.jpeg);
+    background-image: url(../images/bg2.jpeg);
     background-repeat: no-repeat;
-    background-position: center ;
-    
 }
 
 .fieldset {
