@@ -1,12 +1,14 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow-x: visible;
 }
 
 *,
 ::after,
 ::before {
     box-sizing: inherit;
+    overflow-x: visible;
 }
 
 .container {
@@ -14,6 +16,7 @@ html {
     font-family: 'Noto Sans';
     background-image: url(../images/bg2.jpeg);
     background-repeat: no-repeat;
+    overflow-x: visible;
 }
 
 .form__fieldset {
@@ -24,4 +27,5 @@ html {
     margin: auto;
     box-shadow: 4px 5px 6px teal;
     background-color: aliceblue;
+    overflow-x: visible;
 }
