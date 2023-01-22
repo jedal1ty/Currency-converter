@@ -4,7 +4,7 @@
 
 https://jedal1ty.github.io/Currency-converter/
 
-https://github.com/jedal1ty/Currency-converter/blob/master/images/Demo.gif
+![homepage demo](images/Demo.gif)
 
 ### Description
 
