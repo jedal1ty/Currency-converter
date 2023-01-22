@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    background-color: rgb(203, 203, 203);
+    background-image: url(https://i.ibb.co/tH8VH9B/background.jpg)
 }
 
 *,
@@ -33,4 +33,5 @@ html {
     margin: auto;
     box-shadow: 4px 5px 6px teal;
     background-color: aliceblue;
+
 }
