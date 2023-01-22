@@ -21,28 +21,28 @@
 
 <body class="container">
     <form class="form">
-        <fieldset class="fieldset">
-            <legend class="currency">
+        <fieldset class="form__fieldset">
+            <legend class="form__currency">
                 Kalkulator wymiany walut
             </legend>
             Pola oznaczone * są wymagane!
             <p>
                 <label>
-                    <span class="currency__item">Ilość*: <input placeholder="Wpisz kwotę w PLN" class="js-amount"
+                    <span class="form__currencyItem">Ilość*: <input placeholder="Wpisz kwotę w PLN" class="js-amount"
                             required value="" type="number" min=0></span>
                 </label>
             </p>
-            <label><span class="currency__item">Waluta: </span>
-                <select class="currency__item js-currency">
+            <label><span class="form__currencyItem">Waluta: </span>
+                <select class="form__currencyItem js-currency">
                     <option value="EUR">EUR</option>
                     <option value="USD">USD</option>
                     <option value="CHF">CHF</option>
                     <option value="GBP">GPB</option>
                 </select>
             </label>
-            <button class="currency__button js-button">Przelicz</button>
+            <button class="form__currencyButton js-button">Przelicz</button>
             <p>
-                <span class="currency__result">Wartość po przeliczeniu:</span><strong
+                <span class="form__currencyResult">Wartość po przeliczeniu:</span><strong
                     class="js-result"></strong>
             </p>
 

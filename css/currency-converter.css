@@ -1,4 +1,4 @@
-.currency {
+.form__currency {
     border-radius: 15px;
     padding: 10px; 
     font-family: 'Noto Sans';
@@ -10,13 +10,13 @@
     font-weight: bold;
 }
 
-.currency__item {
+.form__currencyItem {
     font-family: 'Noto Sans';
     font-weight: bold;
     margin: 15px;
 }
 
-.currency__button {
+.form__currencyButton {
     font-family: 'Noto Sans';
     padding: 5px;
     margin-inline: 20px;
@@ -28,16 +28,16 @@
     font-weight: bold;
 }
 
-.currency__button:hover {
+.form__currencyButton:hover {
     box-shadow: 4px 5px 6px rgb(0, 0, 0);
     cursor: pointer;
 }
 
-.currency__button:active {
+.form__currencyButton:active {
     color: rgb(28, 217, 217)
 }
 
-.currency__result {
+.form__currencyResult {
     font-family: 'Noto Sans';
     font-weight: bold;
     margin: 15px;
