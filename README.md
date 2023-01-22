@@ -1,5 +1,8 @@
 # Currency converter
 
+## Demo
+
+https://jedal1ty.github.io/Currency-converter/
 
 ### Description
 
