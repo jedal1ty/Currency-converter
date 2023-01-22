@@ -3,6 +3,7 @@
 ## Demo
 
 https://jedal1ty.github.io/Currency-converter/
+https://github.com/jedal1ty/Currency-converter/blob/master/images/Demo.gif
 
 ### Description
 
