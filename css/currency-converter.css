@@ -1,0 +1,44 @@
+.currency {
+    border-radius: 15px;
+    padding: 10px; 
+    font-family: 'Noto Sans';
+    background-color: teal;
+    color: white;
+    border: 3px solid black;
+    max-width: 600px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.currency__item {
+    font-family: 'Noto Sans';
+    font-weight: bold;
+    margin: 15px;
+}
+
+.currency__button {
+    font-family: 'Noto Sans';
+    padding: 5px;
+    margin-inline: 20px;
+    background-color: teal;
+    margin: 15px;
+    border-radius: 15px;
+    width: 600px;
+    color: white;
+    font-weight: bold;
+}
+
+.currency__button:hover {
+    box-shadow: 4px 5px 6px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.currency__button:active {
+    color: rgb(28, 217, 217)
+}
+
+.currency__result {
+    font-family: 'Noto Sans';
+    font-weight: bold;
+    margin: 15px;
+}
