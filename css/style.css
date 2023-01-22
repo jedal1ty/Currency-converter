@@ -1,7 +1,6 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    background-image: url(https://i.ibb.co/tH8VH9B/background.jpg)
 }
 
 *,
@@ -10,19 +9,13 @@ html {
     box-sizing: inherit;
 }
 
-.body {
+.container {
+    padding: 110px;
     font-family: 'Noto Sans';
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    max-width: 600px;
-    padding: 50px;
-    box-shadow: 4px 5px 6px teal;
-    text-shadow: 2px 3px 4px teal;
-    text-align: center;
-    border-radius: 15px;
-    background-color: aliceblue;
-    border: 3px solid black;
+    background-image: url(../images/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    
 }
 
 .fieldset {
@@ -33,5 +26,4 @@ html {
     margin: auto;
     box-shadow: 4px 5px 6px teal;
     background-color: aliceblue;
-
 }

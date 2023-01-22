@@ -19,22 +19,22 @@
     <script defer src="js/script.js"></script>
 </head>
 
-<body>
-    <h1 class="body">Kalkulator wymiany walut</h1>
-    
+<body class="container">
     <form class="form">
         <fieldset class="fieldset">
             <legend class="currency">
                 Kalkulator wymiany walut
             </legend>
+            Pola oznaczone * są wymagane!
             <p>
                 <label>
-                    <span class="currency__item">Ilość*: <input placeholder="Wpisz kwotę w walucie" class="js-amount" required value="" type="number" min=0></span>
+                    <span class="currency__item">Ilość*: <input placeholder="Wpisz kwotę w PLN" class="js-amount"
+                            required value="" type="number" min=0></span>
                 </label>
             </p>
             <label><span class="currency__item">Waluta: </span>
                 <select class="currency__item js-currency">
-                     <option value="4.6965" id="EUR">EUR</option>
+                    <option value="4.6965" id="EUR">EUR</option>
                     <option value="4.4828" id="USD">USD</option>
                     <option value="4.7608" id="CHF">CHF</option>
                     <option value="5.4389" id="GBP">GPB</option>
@@ -42,9 +42,10 @@
             </label>
             <button class="currency__button js-button">Przelicz</button>
             <p>
-                <span class="currency__result">Wartość po przeliczeniu na PLN: </span><strong class="currency__result js-result"></strong>
-                
+                <span class="currency__result">Wartość po przeliczeniu na PLN: </span><strong
+                    class="currency__result js-result"></strong>
             </p>
+
         </fieldset>
     </form>
 
