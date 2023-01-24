@@ -10,8 +10,6 @@
 
 This is a simple currency converter that I have created while learning to code with YouCode team.
 
-
-
 #### Technologies used:
 - HTML
 - Javasscript (ES6+)
