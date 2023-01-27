@@ -1,11 +1,17 @@
 # Currency converter
 
-## Demo
+## Demo 
 
-https://jedal1ty.github.io/Currency-converter/
+[Currency converter](https://jedal1ty.github.io/Currency-converter/)
 
 ![homepage demo](images/Demo.gif)
 
 ### Description
 
-This is a simple currency converter that I have created using HTML, CSS and Javascript (ES6+) while learning to code with YouCode team.
+This is a simple currency converter that I have created while learning to code with YouCode team.
+
+#### Technologies used:
+- HTML
+- Javasscript (ES6+)
+- CSS
+- BEM
