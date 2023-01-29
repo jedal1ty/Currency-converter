@@ -29,12 +29,13 @@
 
         const amountElement = document.querySelector(".js-amount");
         const currencyElement = document.querySelector(".js-currency");
-        const button = document.querySelector(".js-button");
+        const buttonElement = document.querySelector(".js-button");
 
         const amount = +amountElement.value;
         const currency = currencyElement.value;
+        const button = buttonElement.value;
 
-        let result = calculateResult(currency, amount)
+        let result = calculateResult(currency, amount, button);
 
         updateResultText(amount, result, currency);
     };
