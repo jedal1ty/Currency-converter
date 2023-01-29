@@ -15,6 +15,8 @@ html {
     background-image: url(../images/bg2.jpeg);
     background-repeat: no-repeat;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .form__fieldset {

@@ -1,6 +1,6 @@
 .form__currency {
     border-radius: 15px;
-    padding: 10px; 
+    padding: 10px;
     font-family: 'Noto Sans';
     background-color: teal;
     color: white;
@@ -39,5 +39,5 @@
 .form__currencyResult {
     font-family: 'Noto Sans';
     font-weight: bold;
-    margin-left: 18%;
+    align-items: center;
 }
